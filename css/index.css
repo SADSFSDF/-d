@@ -341,37 +341,217 @@ margin-bottom: 15px;
     .phoneContent{
     	display: block;
     }
-}/*
+}
 .phoneHeader{
 	position: relative;
 }
 .phoneHeader img:nth-of-type(1){
 	height: 35px;
-	float: left;
-	    position: relative;
-    top: 11px;
+    float: left;
+    position: relative;
+    top: 9px;
+    left: 4px;
 }
 .phoneHeader img:nth-of-type(2){
 	height: 44px;
 	float: right;
 }
 .rDivs{
-	width: 50%;
-	height: 100%;
+	width: 40%;
+    height: 75%;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    background: url(../images/phone/rr.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.phoneHeader{
+	    height: 55px;
+    width: 100%;
+    background: #fff;
+    /* padding: 7px; */
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.bgHeader{
+	height: 550px;
+	background:url(../images/phone/bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+.imgNum{
+	width: 19.6%;
+	margin-left: 10px;
+}
+.phoneDivContentDiv{
+	position: relative;
+	overflow: hidden;
+}
+.fwImg{
+	width: 38.8%;
+	float: left;
+}
+.phoneDivContentDivInner{
+	margin-left: 37.8%;
+	padding-left: 10px;
+}
+.phoneDivContentDivInner div{
+	margin-bottom: 4px;
+}
+.phoneDivContentDivInner{
+	font-size:12px;
+	font-family:Adobe Fangsong Std;
+	font-weight:normal;
+	color:rgba(60,59,57,1);
+}
+.p1Font1{
+	font-size: 22px;
+}
+.p1Font2 span{
+	display: inline-block;
+	padding:4px;
+	border-radius: 50%;
+	border:1px solid #e9e6e7;
+}
+.phoneDivContent{
+	margin-top: 30px;
+	position: relative;
+}
+.level{
+	width: 20%;
 	position: absolute;
 	right: 0;
 	top:0;
-	background:url(../images/aa.png) no-repeat center center;
-	background-size: 100% 100%;
 }
-.phoneHeader{
-	height: 50px;
+
+.ljyy{
+	width: 45%;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	display: block;
+}
+.tjjs{
+	margin-bottom: 0px;
+	padding-left: 15px;
+	font-size: 18px;
+}
+.tjjs img,span{
+	vertical-align: middle;
+
+}
+.tjjs img{
+	    width: 46px;
+    margin-right: 6px;
+}
+.phone_t{
+	padding-right: 15px;
+	text-align: right;
+	margin-bottom: 5px;
+}
+.phone_t span:nth-of-type(1){
+	width:22px;
+height:3px;
+background:rgba(225,204,173,1);
+display: inline-block;
+}
+.phone_t span:nth-of-type(2){
+	font-size:16px;
+font-family:Adobe Fangsong Std;
+font-weight:normal;
+color:rgba(202,171,126,1);
+margin-left: 5px;
+}
+.phoneJs{
+	overflow: hidden;
+}
+.phoneJsInner{
+	width: 24.9%;
+	float: left;
+
+}
+.phoneJsInner img{
+	    width: 94%;
+   
+    display: block;
+}
+.dd{
 	width: 100%;
-	background:#fff;
-	padding: 7px;
+	height: 30px;
+	line-height: 30px;
 }
-.bgHeader{
-	height: 400px;
-	background:url(../images/phone/aaa.png) no-repeat center center;
-	background-size: cover;
-}*/
+.dd span:nth-of-type(1){
+	display: inline-block;
+	background:rgba(54,52,51,1);
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	height: 100%;
+	position: relative;
+	top:-1px;
+	width: 50%;
+	text-align: center;
+}
+.dd span:nth-of-type(2){
+	
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(25,25,25,1);
+	position: relative;
+	left:5px;
+}
+.phoneMs{
+	overflow: hidden;
+}
+.phoneMs1{
+	width: 50%;
+	height: 240px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.phoneMs1 div:nth-of-type(1){
+	font-size:18px;
+font-family:Adobe Fangsong Std;
+font-weight:normal;
+color:rgba(63,62,61,1);
+margin-bottom: 10px;
+}
+.phoneMs1 img{
+	width: 25px;
+}
+.phoneMs1 div:nth-of-type(2){
+	font-size:14px;
+font-family:Adobe Fangsong Std;
+font-weight:normal;
+color:rgba(63,62,61,1);
+margin-bottom: 10px;
+}
+.phoneMs2{
+	width: 50%;
+	height: 240px;
+	position: relative;
+	float: left;
+	background:rgba(247,247,247,1);
+}
+.phoneMs2 img{
+	width: 80%;
+	height: 190px;
+	position: absolute;
+	left:0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+.bg22{
+	 background: url(../images/ssss.png) no-repeat center center;
+    background-size: cover;
+}
+.bg33{
+	 background: url(../images/ssss.png) no-repeat center center;
+    background-size: cover;
+}
